@@ -1,0 +1,49 @@
+﻿form {
+    background-color: #CCCCCC;
+    width: 550px;
+    height: 450px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: #09C;
+    text-decoration:none;
+    padding:10px;
+    border:1px solid #999;
+    border: inset 1px solid #333;
+}
+
+input {
+    width:375px;
+    display:block;
+    border: 1px solid #999;
+    height: 25px;
+
+}
+
+textarea #feedback {
+width:375px;
+height:150px;
+
+}
+
+textarea #feedback {
+display:block;
+}
+
+input.button {
+    width:100px;
+    float:right;
+    background:#09C;
+    color:#fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    height:30px;
+    border:1px solid #999;
+}
+
+input.button {
+    background:#fff;
+    color:#09C;
+
+}

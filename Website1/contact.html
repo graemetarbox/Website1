@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--if you have a script that is to be loaded when it is called or an event called put it into the head-->
+    <title>Starting with forms</title>
+    <script type="text/javascript"
+            src="JavaScript1.js"></script>
+    <script type="text/javascript">
+        function doSomething() {
+
+        }
+    </script>
+
+</head>
+<body onload="hello()">
+    
+    <script type="text/javascript">
+        document.write("<br /><h1>Hello</h1><br /> World");
+    </script>
+    <input type="button" value="click me" onclick="doSomething();"/>
+    <nav>
+        <ul>
+            <li class="active"><a href="homepage.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Practice Page.html">Practice Page</a></li>
+        </ul>
+    </nav>
+   <form>
+      Name<input name="fname"
+                 type="text" 
+                 value="Type your first name here"
+                 size="80"
+                 maxlength="80"/>
+       <br />
+          Password <input type="password"
+                          name="passwd" />
+       <br />
+
+          <input type="radio"
+                 name="gender"
+                 value="male" />
+       male<br />
+          <input type="radio"
+                 name="gender"
+                 value=" female" />
+       female<br />
+
+          <input type="button" 
+                 value="Click me"
+                 onclick="alert('You clicked me !!!');"<br />
+                 <br />
+                 <br />
+          <input type="checkbox"
+                 name="ColourType Red"
+                 value="Red" />
+            Red<br />
+          <input type="checkbox"
+                 name="ColourTypeBlue"
+                 value="blue" />
+            Blue<br />
+          <input type="checkbox"
+                 name="ColourTypeGreen"
+                 value="green" />
+            Green<br />
+       <form method="post" action="mailto:name@location.com">
+
+           <table>
+               <tr>
+                   <td> What are your favorite spreads?</td>
+                   <td> Ketchup</td>
+                   <td> <input type="checkbox" name="spread_1" value="ketchup" /> </td>
+               </tr>
+               <tr>
+                   <td> &nbsp;</td>
+                   <td> Mustard</td>
+                   <td> <input type="checkbox" name="spread_2" value="mustard" /> </td>
+               </tr>
+               <tr>
+                   <td> &nbsp;</td>
+                   <td> Mayonnaise</td>
+                   <td> <input type="checkbox" name="spread_3" value="mayo" /> </td>
+               </tr>
+               <tr>
+                   <td> &nbsp;</td>
+                   <td> <input type="button" value="Select" /> </td>
+                   <td> <input type="reset" value="Reset Form" /> </td>
+
+
+               </tr>
+
+           </table>
+           <input type="image" src="Lighthouse.jpg" alt="Submit" />
+           <input type=" text"
+                  name=" fname" />
+           <input type="reset" />
+           <form action="form_action.asp"
+                 method=" get">
+               <br />
+
+               Email: <input type="text"
+                             name=" email" /><br />
+                      <input type="submit"
+                             value=" Submit" />
+               <br />
+               <input type="image"
+                      src=" button.gif" />
+           </form>
+           Name<input name="fname"
+                      type="text"
+                      size="80"
+                      maxlength="80" />
+           <br />
+           Address<input name="address"
+                      type="text"
+                      size="80"
+                      maxlength="80" />
+           <br />
+           Email<input name="email"
+                       type="text"
+                       size="80"
+                       maxlength="80" />
+           <br />
+           Age<input   name="age"
+                       type="text"
+                       size="80"
+                       maxlength="80" />
+           <br />
+           <form action="post">
+               <table>
+                   <tr>
+                       <td>Name:</td>
+                       <td><input name="name" type="text" size="60" /></td>
+                   </tr>
+
+                   <tr>
+                       <td>Address:</td>
+                       <td><input name="address" size="60" /></td>
+                   <tr>
+
+                   <tr>
+                       <td>E-mail:</td>
+                       <td><input name="email" size="60" /></td>
+                   </tr>
+
+                   <tr>
+                       <td>Age:</td>
+                       <td><input name="age" size="60" /></td>
+                   </tr>
+                   <tr>
+                       <td><input type="image" src="Lighthouse.jpg" alt="Submit" /></td>                       
+                       <td><input type="reset" value="Reset Form" /> </td>
+                   </tr>
+               </table>
+               <br />
+               <form method="post" action="mailto:name@location.com">
+
+                   <table>
+                       <tr>
+                           <td>Country:</td>
+                           <td>
+                               <select name="country">
+                                   <option value="ireland">Ireland	</option>
+                                   <option value="england">England	</option>
+                                   <option value="france">France	</option>
+                                   <option value="spain">Spain	</option>
+                               </select>
+                       </tr>
+                       <tr>
+                           <td> <input type="button" value="Select" /> </td>
+                           <td> <input type="reset" value="Reset Form" /> </td>
+
+
+                       </tr>
+
+                   </table>
+
+                   <form method="post" action="mailto:name@location.com">
+
+                       <table>
+                           <tr>
+                               <td>Any comments:</td>
+                               <td>
+                                   <textarea rows="5" cols="50"></textarea>
+                           </tr>
+                           <tr>
+                               <td> <input type="button" value="Select" /> </td>
+                               <td> <input type="reset" value="Reset Form" /> </td>
+
+
+                           </tr>
+
+                       </table>
+
+
+                   </form>
+
+           </form>
+
+       </form>
+</body>
+</html>

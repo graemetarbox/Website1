@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title> Guess a Num</title>
+    <style type="text/css">
+        #myDiv {
+            width: 300px;
+            height: 200px;
+            background-color: grey;
+            color: white;
+        }
+    </style>
+
+    <script language="JavaScript" type="text/javascript">
+
+        function guess() {
+            var respArea = document.getElementById("myDiv");
+            var secretNum = Math.round(Math.random() * 10);
+
+            var userNum = prompt("Please guess a num between 1 and 10", "1 to 10");
+
+            if (userNum == secretNum) {
+                respArea.innerHTML = "Well done!";
+                respArea.style.backgroundColor = "green";
+            }
+            else {
+                respArea.innerHTML = "Incorrect number";
+                respArea.style.backgroundColor = "red";
+            }
+        }
+
+
+        function rnNumGen() {
+            var rnNum = Math.random();
+            var byTen = (rnNum * 10);
+            var roundedNum = Math.round(byTen);
+
+            //same as
+            var rnNum = Math.round(Math.random() * 10);
+
+            alert(rnNum);
+        }
+    </script>
+    <script type="text/javascript">
+        function show_prompt() {
+            var name = prompt("Please Enter Your Name:", "John Doe");
+
+            if (name != null && name != "") {
+                document.write("Hello " + name + " How are you today");
+            }
+            else {
+                document.write("no name entered");
+            }
+        }
+    </script>
+</head>
+</head>
+
+<body>
+    <div id="myDiv">
+        <h1>Guess a number game</h1>
+    </div>
+
+    <input type="button" value="Guess a number" onclick="guess();" />
+    <input type="button" value="Random num Gen" onclick="rnNumGen();" />
+    <input type="button" onclick="show_prompt()" value="Show prompt box" />
+
+</body>
+</html>

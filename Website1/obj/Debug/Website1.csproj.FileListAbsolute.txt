@@ -1,0 +1,6 @@
+H:\Week 1\Website1\Website1\bin\Website1.dll.config
+H:\Week 1\Website1\Website1\bin\Website1.dll
+H:\Week 1\Website1\Website1\bin\Website1.pdb
+H:\Week 1\Website1\Website1\obj\Debug\Website1.csprojResolveAssemblyReference.cache
+H:\Week 1\Website1\Website1\obj\Debug\Website1.dll
+H:\Week 1\Website1\Website1\obj\Debug\Website1.pdb

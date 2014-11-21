@@ -1,0 +1,23 @@
+﻿/*This is a comment*/
+/*Question to shane; should we use a reset.css fileto avoid any cross browser issues in topic 3 CSS slide 12*/
+
+body 
+{
+background-color:aquamarine;
+/*www.google.com/webfonts or www.upsell.com/BrowserNews/res_fonts.htm for more fonts*/
+font-family: serif;
+font-style:normal;
+/*Developers trick on font size using em in addition below slide 23 03 CSS slides*/
+/*Default font size is 16px or 1em*/
+font-size:62.5%;
+line-height:100%;
+}
+p 
+{
+font-size:0.8em;
+/*width and heighth only sets contect area to calulate its full size you have to include the padding, border and margin*/
+width:200em;
+
+}
+
+/* ID's are unique can be applied only once*/

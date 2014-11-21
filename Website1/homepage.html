@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="En">
+<head>
+    <title>Sample Website</title>
+    <meta charset="utf-8" />
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="StyleSheet2Example.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        function show_confirm() {
+            var buttonClick = confirm("Press a button");
+
+            if (buttonClick == true) {
+                document.write("You pressed OK!");
+            }
+            else {
+                document.write("You pressed Cancel!");
+            }
+        }
+    </script>
+</head>
+<body >
+    <div id="container">
+        <div id="first-column">
+            <div id="content">
+                <input type="button" onclick="show_confirm()" value="Show confirm box" />
+                <header class="mainHeader">
+                    <img src="image/Lighthouse.jpg" />
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="homepage.html">Home</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="Practice Page.html">Practice Page</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <blockquote>
+                    <p>No one will ever need more than 637kB of memory for a personal computer</p>
+                    <footer>Bill Gates <cite title="Source Title">Seattle 1981</cite></footer>
+                </blockquote>
+
+                <h1>Cloud Computing Lab</h1>
+                <p><i>What is cloud computing? </i>This website has been built by students as a resource on the subject.</p>
+                <h2>Modules Covered</h2>
+                <p>Software Engineering, Databases, Object Orientated Software Engineering, Web Design</p>
+            </div>
+        </div>
+
+
+    </div>
+       
+</body>
+</html>
